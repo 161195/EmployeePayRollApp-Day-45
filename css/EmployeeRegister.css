@@ -92,7 +92,7 @@ img{
        {
            display:flex; flex-direction: row;
        }
-    .profile-radio-content > lable
+    .profile-radio-content>lable
     {
         display:flex; align-items: center;
     }
