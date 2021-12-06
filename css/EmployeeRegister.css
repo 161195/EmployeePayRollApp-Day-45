@@ -39,6 +39,8 @@ img{
     background-color:#f7f7f7;
     display: flex;
     justify-content: center;
+    align-items: center;
+    border:0px solid green;
 }
 .form
 {
@@ -56,10 +58,12 @@ img{
     color: grey;
     text-transform: capitalize;
     padding-bottom: 20px;
+    opacity: 1;
 }
 .row-content
 {
-    display: flex;
+    display:flex;
+    flex-direction: row;
     margin-bottom: 10px;
     align-items: center;
     border: 0px solid green;
@@ -90,13 +94,18 @@ img{
     /* UC 3 */
     .profile-radio-content
        {
-           display:flex; flex-direction: row;
+           display:flex; 
+           flex-direction: row;
        }
     .profile-radio-content>lable
     {
-        display:flex; align-items: center;
+        display:flex; 
+        align-items: center;
+        flex-direction: row;
     }
     .profile 
     {
-        width:40px; border-radius:50%; margin-left:12px;
+        width:40px;
+        border-radius:50%;
+        margin-left:12px;
     } 
